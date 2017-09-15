@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         	= "JGProgressHUD"
-  s.version      	= "1.2.7"
+  s.version      	= "1.2.8"
   s.summary      	= "Powerful and modern progress HUD for iOS."
   s.homepage     	= "https://github.com/JonasGessner/JGProgressHUD"
   s.license      	= { :type => "MIT", :file => "LICENSE.txt" }

@@ -614,6 +614,9 @@ static CGRect keyboardFrame = (CGRect){{0.0f, 0.0f}, {0.0f, 0.0f}};
         [self.contentView addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapped:)]];
     }
     
+    _HUDView.clipsToBounds = YES;
+    _HUDView.layer.masksToBounds = YES;
+    
     return _HUDView;
 }
 
